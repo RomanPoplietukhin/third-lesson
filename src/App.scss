@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.outer__container {
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .news__container {
+        width: calc( (100% - 15px) / 2);
+        border: 1px solid red;
+        margin-bottom: 15px;
+        padding: 100px;
+        .special__field {
+            font-size: 25px;
+            color: red;
+        }       
+    }
+}
